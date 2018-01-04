@@ -1,14 +1,14 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-mainClassName = 'App'
+mainClassName = 'Repl.App'
 
 jar {
     baseName = 'WebREPL'
     version = '0.1.0'
     manifest {
         attributes(
-            'Main-Class': 'App'
+            'Main-Class': 'Repl.App'
         )
     }
 }
